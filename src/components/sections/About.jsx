@@ -3,13 +3,19 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
+    "Javascript",
+    "HTML",
     "TailwindCSS",
-    "Svelte",
+    "CSS",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = [
+    "Node.js",
+     "Express.js",
+      "AWS",
+      "MongoDB",
+      "Pyhton"
+  ];
 
   return (
     <section
@@ -69,12 +75,14 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech. in Computer Science </strong> - Poornima University
+                  (2022-2026)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures and Algorithms
+                </li>
+                <li>
+                  Full Stack Development ("MERN")
                 </li>
               </ul>
             </div>
@@ -84,7 +92,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Machine learning Intern at Axis India Machine Learning (2024 1-May to 30June){" "}
                   </h4>
                   <p>
                     Developed and maintained microservices for cloud-based
@@ -95,7 +103,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Intern at Inovaitex (2025){" "}
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
